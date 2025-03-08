@@ -12,9 +12,18 @@ app = FastAPI()
 
 # Define the input data format
 class FailureInput(BaseModel):
-    feature_1: float
-    feature_2: float
-    feature_3: float
+    attribute1: float
+    attribute2: float
+    attribute3: float
+     attribute4: float
+    attribute5: float
+    attribute6: float
+     attribute7: float
+    attribute8: float
+    attribute9: float
+
+
+
     # Add more features as per your dataset
 
 @app.get("/")
