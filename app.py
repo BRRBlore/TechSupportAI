@@ -4,7 +4,7 @@ import pandas as pd
 from pydantic import BaseModel
 
 # Load the trained model
-with open("failure_prediction_model.pkl", "rb") as file:
+with open("failure_prediction_xgboost.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Initialize FastAPI app
